@@ -1,0 +1,229 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFDDCC;
+	color: #3A2E2E;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.page {
+	padding: 80px;
+	width: 1000px;
+	margin: 30px auto;
+	border: 1px groove #80543E; 
+	overflow: hidden;
+	text-align: justify;
+	font-weight: lighter;
+
+	background-color: #E69C77;
+	background-image: url("images/brown.jpg");
+	background-repeat: no-repeat;
+	background-position: center-top;
+	background-attachment: scroll;
+	background-size: 100% 25%;
+
+}
+
+.kolom {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.atas {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 50px;
+	flex-wrap: wrap;
+}
+
+.atas img {
+	position: relative;
+	left: -30px;
+	top: -30px;
+}
+
+.menu > li {
+	display: inline;
+	margin-right: 50px;
+}
+
+.turunan {
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+
+	position: absolute;
+}
+
+.turunan li {
+	list-style: none;
+	border-bottom: 1px solid #fff;
+	padding: 0 0 20px 40px;
+	margin: 20px;
+}
+
+.turunan li:last-of-type {
+	border-bottom: none;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown > span {
+	z-index: 2;
+	position: relative;
+	cursor: pointer;
+}
+
+.turunan {
+	display: none;
+}
+
+.dropdown:hover .turunan {
+	display: block;
+	z-index: 1;
+}
+
+.bawah {
+	display: block;
+	float: left;
+	text-align: justify;
+	width: 600px;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid white;
+}
+
+.sampingan {
+	display: block;
+	float: right;
+	width: 200px;
+	padding: 10px 10px 10px 25px;
+	border: 1px solid white;
+}
+
+.bekgraund {
+	padding: 30px 50px 200px 50px;
+	border : 2px solid black;
+}
+
+.isiform {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	width: 90%;
+	margin: 10px;
+	margin-left: 20px;
+}
+
+.isiform input [type='text'],
+.isiform input [ type='email'] {
+	font-size: 16px;
+}
+
+.pilihgender {
+	border: none;
+}
+
+.pilihgender,
+.radio
+.pilihgender input [type='radio'] {
+	float: left;
+	position: relative;
+	left: 20px;
+}
+
+.isiform select {
+	width: 50%;
+	font-size: 16px;
+}
+
+.isiform textarea {
+	font-size: 16px;
+	min-height: 100px;
+	margin-bottom: 30px;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+.isiform button {
+	font-size: 16px;
+	font-weight: lighter;
+	border-radius: 13px;
+
+	position: relative;
+	left: 20px;
+
+	width: 100px;
+	background-color: #ffddcc;
+}
+
+.terimakasih {
+	position: relative;
+	top: 30px;
+}
+
+.terakhir {
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	border: 1px solid white;
+}
+
+.kotak {
+	height: 200px;
+	padding: 0 20px 0 20px;
+	flex: 1;
+	overflow: hidden;
+}
+.satu , .tiga {
+	flex: initial;
+	width: 100px;
+	background-color: #F7DCC8;
+}
+
+.dua {
+	flex: 2;
+	background-color: #eee2d2;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.dua img {
+	margin : 0 10px 0 10px;
+	float: left;
+}
+
+.dua a {
+	font-size: 20px;
+}
+
+.dua p {
+	display: inline-block;
+	text-align: justify;
+}
+
+.fixeditem {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	padding-top: 75px;
+	font-size: 30px;
+	background-color: #F4F1D6;
+	border: 1px solid #aaa196;
+	border-radius: 10px;
+
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		
+		<title>Login trial</title>
+		
+		<link rel="stylesheet" href="styles.css"/>
+		
+		<link href="https://fonts.googleapis.com/css?family=Assistant|Indie+Flower|Mansalva&display=swap" rel="stylesheet"/>
+		
+		<style>
+			.atas {
+			font-family: 'Mansalva', cursive;
+			font-size: 25px;
+			line-height: 1px;
+			color: white;
+			}
+			
+			.page {
+			font-family: 'Assistant', sans-serif;
+			}
+
+			.terimakasih {
+			font-family: 'Indie Flower', cursive;
+			font-size: 30px;
+			text-align: center;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<div class="page">
+			<header class="kolom atas">
+				<time datetime="2019-10-07 14:44+0900"></time>
+				<a href="main.html">
+					<img src="images/tribal.png" style="max-width: 100px"/>
+				</a>
+				<ul class="menu">
+					<li class='dropdown'><a id='klik'>klik</a>
+						<ul class="turunan">
+							<li> <a href="login.html" target="_blank">sign</a></li>
+							<li> <a href="#"> Login</a></li>
+						</ul>
+					</li>
+				</ul>
+			</header>
+
+
+			<div class="bekgraund">
+				<p> isi disini ya : </p>
+				<form action="" method="get" class="isiform">
+					<div class="isiform nama">
+						<label for="full-name">Nama</label>
+						<input id="full-name" type="text" name="full name">
+					</div>
+
+					<div class="isiform email">
+						<label for='email'>Email</label>
+						<input id="email" name="email" type="email"
+							placeholder="tiffany@yahoo.com"/>
+					</div>
+
+					<fieldset class="pilihgender">
+						<legend>Jenis Kelamin</legend>
+					
+						<input id="tipe 1" type="radio" name="tipe" value="wanita"  checked />
+						<label for="tipe 1" class="radio">Wanita</label>
+
+						<input id="tipe 2" type="radio" name="tipe" value="pria" />
+						<label for="tipe 1" class="radio">Pria</label>
+					</fieldset>
+
+					<div class="isiform pendidikan">
+						<label for="pendidikan">Pendidikan</label>
+						<select id="pendidikan" name="pendidikan">
+							<option value="SMA">Sekolah Menengah Atas</option>
+							<option value="D3">Diploma</option>
+							<option value="S1">Strata 1</option>
+							<option value="S2">Strata 2</option>
+							<option value="Dokter">Dokter</option>
+						</select>
+					</div>
+
+					<div class="isiform pesan">
+						<label for="pesan">Pesan</label>
+						<textarea id="pesan" name="pesan" placeholder="pesan dan kesan yang ingin disampaikan"></textarea>
+					</div>
+
+					<div class="isiform cekiceki">
+						<label class="checkbox" for="selesai">
+							<input id="selesai" type="checkbox" name="selesai" value="sudah">
+							<span>sudah selesai mengisi</span>
+						</label>
+					</div>
+
+					<div class="isiform kelar">
+						<button>kirim</button>
+				</form>
+			</div>
+
+			<p class='terimakasih'>terimakasih</p>
+		</div>
+
+		<br/>
+
+		<div class="fixeditem"><a href="#klik">keatas</a></div>
+		
+		<footer class="kolom terakhir">
+				<div class="kotak satu"></div>
+				<div class="kotak dua">
+					<img src="images/floral.png" style="width: 100px" />
+					<p> <a id="kotakkotak">Tiffany,</a> <address> email : tiffany@yahoo.com </address>
+					Proin semper arcu urna. Pellentesque vehicula urna quis rutrum imperdiet. Sed nec est ut lorem ornare bibendum sed ut libero. Praesent euismod, est et tincidunt euismod, lacus dolor consectetur elit, sit amet ornare ex mauris id justo. Praesent id est lectus. Nulla nec tristique lorem, quis elementum lectus. Integer lobortis facilisis libero non pretium. Sed a faucibus orci, id rhoncus odio.</p>
+				</div>
+				<div class="kotak tiga"></div>
+			</footer>
+	</body>
+</html>
